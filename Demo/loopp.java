@@ -1,23 +1,24 @@
 package Demo;
 
 public class loopp {
-        static void main() {
-//        for (start; condition; increment/decremenet)
-            for (int i = 1; i <= 10; i++) {
-                System.out.println(i * 2);
-
-//        While loop(Entry control loop)
-                int j = 1;
-                while (j <= 10) {
-                    System.out.println(j * 3);
-                    j++;//increment/decrement
-                }
-                //DO-While loop(Exit control loop)
-                do {
-                    System.out.println(i * 9);
-                    i++;//increment/decrement
-                } while (i <= 10);//end
-            }
+    public static void main(String[] args) {
+        System.out.println("For loop:");
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i * 2);
         }
 
+        System.out.println("\nWhile loop:");
+        int j = 1;
+        while (j <= 10) {
+            System.out.println(j * 3);
+            j++;
+        }
+
+        System.out.println("\nDo-While loop:");
+        int k = 1;
+        do {
+            System.out.println(k * 9);
+            k++;
+        } while (k <= 10);
+    }
 }

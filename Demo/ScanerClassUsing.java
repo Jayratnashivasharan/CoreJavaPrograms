@@ -1,7 +1,7 @@
 package Demo;
+
 import java.util.Scanner;
 
-///
 public class ScanerClassUsing {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -12,13 +12,12 @@ public class ScanerClassUsing {
         System.out.print("Enter second number: ");
         int secondNumber = scanner.nextInt();
 
-        System.out.print(" Enter a string");
-        String string= scanner.next().toString();
-        char c = string.charAt(0);
+        System.out.print("Enter a string: ");
+        String text = scanner.next();
 
         int sum = firstNumber + secondNumber;
-        System.out.println("Sum = " + sum);
-        System.out.println(string);
-        System.out.println(c);
+        System.out.println("\nSum = " + sum);
+        System.out.println("String = " + text);
+        System.out.println("First character = " + text.charAt(0));
     }
 }
