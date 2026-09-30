@@ -20,7 +20,7 @@ public class Student extends Teacher {
         t.occupation();
         Teacher t1 = new Student();
         t1.occupation();
-        s.sleeping();
+        s.sleeping();       
         s.occupation();
     }
 }
