@@ -3,7 +3,7 @@ public class Print_Increasing {
         if (n == 0) {
             return;
         }
-        PrintIncreasing(n);
+        PrintIncreasing(n-1);
         System.out.println(n);
     }
     public static void main(String[] args) {
